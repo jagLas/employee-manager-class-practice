@@ -7,6 +7,7 @@ class Employee {
             this.manager = null;
         }   else {
             this.manager = manager;
+            manager.addEmployee(this);
         }
     }
 }
